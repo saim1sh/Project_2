@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav1{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav2{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(132, 255, 0); */
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 0 40px;
+}
+#nav2 h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.elem{
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+#left{
+    display: flex;
+    padding: 0 40px;
+    gap: 2px;
+}
+#right{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#right h4{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#right i{
+    color: white;
+    background-color: #000000;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+#cont{
+    width: 100%;
+    height: calc(100% - 140px);
+    /* background-color: #5de800; */
+}
+#txtcon{
+    width: 100%;
+    height: 50%;
+    /* background-color: #40a4e6; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#txtcon::-webkit-scrollbar{
+    background-color: transparent;
+    height: 8px;
+}
+#txtcon::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+.elm{
+    flex-shrink: 0;
+    /* border: 2px solid #000; */
+    width: 50%;
+    height: 100%;
+    /* background-color: #f41616; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elm h1{
+    font-size: 100px;
+    font-weight: 400;
+}
+
+
+
+#piccon{
+    height: 50%;
+    width: 100%;
+    background-color: #0228ff;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#piccon img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#piccon::-webkit-scrollbar{
+    display: none;
+}
